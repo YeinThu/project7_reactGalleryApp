@@ -15,6 +15,7 @@ const Gallery = ({ data, title }) => {
     )
   }
   else {
+    title = '';
     images = <NoResults />;
   }
 
